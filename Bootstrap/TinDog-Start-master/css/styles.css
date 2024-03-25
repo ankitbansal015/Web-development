@@ -12,7 +12,14 @@ h1{
   font-size: 4rem;
   font-style: normal;
 }
-
+h3{
+  font-family:"Della Respira" , serif;
+  font-weight: bold;
+  font-size: 1.55rem;
+}
+p{
+  color: #8f8f8f;
+}
 /* navigation bar  */
 .navbar{
   padding: 0 0 4.5rem;
@@ -38,4 +45,21 @@ h1{
 .img-phone{
   width: 60%;
   transform:rotate(25deg);
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
 }
