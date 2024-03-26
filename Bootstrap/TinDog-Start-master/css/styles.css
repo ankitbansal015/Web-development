@@ -3,7 +3,7 @@
   color: #fff;
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1{
@@ -51,11 +51,16 @@ p{
 .img-phone{
   width: 60%;
   transform:rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* features section */
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box{
@@ -103,4 +108,30 @@ p{
  }
 .pricing-column{
   padding: 3% 2%;
+}
+/* CTA section */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+/* footer section  */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .img-phone{
+    position: static;
+    transform: rotate(0);
+  }
 }
